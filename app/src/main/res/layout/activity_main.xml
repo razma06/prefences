@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id ="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="email"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id ="@+id/firstInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="First Name"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id ="@+id/secondInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Second Name"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id ="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="age"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id ="@+id/addressInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="address"
+            android:paddingStart="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            android:text="save"
+            android:background="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>
